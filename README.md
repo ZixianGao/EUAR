@@ -1,4 +1,4 @@
-# Embracing Unimodal Aleatoric Uncertainty for Robust Multimodal Fusion
+# Enhanced Experts with Uncertainty-Aware Routing for Multimodal Sentiment Analysis
 
 The project is a partial implementation of the paper "Enhanced Experts with Uncertainty-Aware Routing for Multimodal Sentiment Analysis"
 This project is implemented using the PyTorch framework.
