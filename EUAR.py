@@ -137,7 +137,7 @@ beta   = 1e-3
 
 
 class EUAR(nn.Module):
-    def __init__(self, multimodal_config,num_labels):
+    def __init__(self, multimodal_config,args,num_labels):
         super().__init__()
         self.num_labels = num_labels
 
@@ -153,8 +153,8 @@ class EUAR(nn.Module):
         self.transa = self.get_network(self_type='l', layers=3)
         self.transv = self.get_network(self_type='l', layers=3)
 
-        self.llr = 1e-5  
-        self.lr = 2e-5  
+        self.llr = args.learning_rate1
+        self.lr = args.learning_rate2 
         
         
         self.fusion = fusion(self.d_l)
