@@ -21,7 +21,7 @@ python train.py
 ```
 
 
-To test our model on MVSA-Single:
+To test our model:
 ```
 python evaluate.py
 ```
